@@ -1,16 +1,70 @@
-# React + Vite
+# Movie Discovery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React.js learning project focused on building a modern movie discovery application while exploring React fundamentals and frontend development.
 
-Currently, two official plugins are available:
+## Current Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Reusable movie card component.
+- Dynamic movie titles using props.
+- Independent state management for each movie card.
+- Interactive Like button using React's `useState` hook.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js 19
+- JavaScript (ES6+)
+- Vite
+- CSS
 
-## Expanding the ESLint configuration
+## React Concepts Practiced
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Functional Components
+- Props and Destructuring
+- Component Reusability
+- State Management with `useState`
+- Event Handling (`onClick`)
+- Conditional Rendering
+
+## Future Goals
+
+- Build a modern, responsive movie discovery interface.
+- Integrate TMDB API for dynamic movie search.
+- Implement debounced search functionality.
+- Display trending movies based on user search history.
+- Integrate Appwrite for backend and database management.
+- Style the application using Tailwind CSS.
+- Deploy the application online.
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+Navigate to the project directory:
+
+```bash
+cd YOUR_PROJECT_FOLDER
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Learning Resource
+
+[React JS 19 Full Course – JavaScript Mastery](https://youtu.be/dCLhUialKPQ)
+
+## Project Status
+
+Currently in development and learning phase.
